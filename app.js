@@ -15,7 +15,7 @@ var client = new Twitter({
 // document.querySelector("body > div:nth-child(6) > div.bof-main-content > smart-slot > div > div.smart-slot__close-button-container.smart-slot-subscribe-to-daily-digest__close-button-container.smart-slot-campaign-3__close-button-container.smart-slot-position-global-screen-bottom__close-button-container > a > span")
 //document.querySelector("body > div:nth-child(6) > div.bof-main-content > smart-slot > div > div.smart-slot__close-button-container.smart-slot-subscribe-to-daily-digest__close-button-container.smart-slot-campaign-3__close-button-container.smart-slot-position-global-screen-bottom__close-button-container > a > span > i")
 const puppeteer = require('puppeteer')
-setInterval(function () {
+setTimeout(function () {
 
 
 let pic
@@ -63,7 +63,7 @@ let pic
 }, 40000)
 
 
-setInterval(function () {
+setTimeout(function () {
 
 
 let pic
@@ -110,7 +110,7 @@ let pic
 
 }, 50000)
 
-setInterval(function () {
+setTimeout(function () {
 
 
 let pic
