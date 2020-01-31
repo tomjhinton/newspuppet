@@ -20,7 +20,7 @@ let get = function() {
 
 let pic
   (async () => {
-    const browser = await puppeteer.launch()
+    const browser = await puppeteer.launch({ args: ['--no-sandbox', '--disable-setuid-sandbox'] })
     const page = await browser.newPage()
     await page.setViewport({
       width: 1280,
@@ -68,7 +68,7 @@ let get2 = function() {
 
 let pic
   (async () => {
-    const browser = await puppeteer.launch()
+    const browser = await puppeteer.launch({ args: ['--no-sandbox', '--disable-setuid-sandbox'] })
     const page = await browser.newPage()
     await page.setViewport({
       width: 1280,
@@ -115,7 +115,7 @@ let get3 = function() {
 
 let pic
   (async () => {
-    const browser = await puppeteer.launch()
+    const browser = await puppeteer.launch({ args: ['--no-sandbox', '--disable-setuid-sandbox'] })
     const page = await browser.newPage()
     await page.setViewport({
       width: 1280,
